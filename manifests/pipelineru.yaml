@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  generateName: sample-spring-boot-app-openshift2-run-
+  name: sample-spring-boot-app-openshift2-init
 spec:
   params:
     - name: git-revision
