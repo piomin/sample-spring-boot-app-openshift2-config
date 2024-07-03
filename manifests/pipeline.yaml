@@ -2,6 +2,8 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: sample-spring-boot-app-openshift2
+  labels:
+    backstage.io/kubernetes-id: sample-spring-boot-app-openshift2
 spec:
   params:
     - description: branch
