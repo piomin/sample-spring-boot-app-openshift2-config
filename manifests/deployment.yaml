@@ -5,7 +5,7 @@ metadata:
   labels:
     app: sample-spring-boot-app-openshift2
     app.kubernetes.io/name: spring-boot
-    backstage.io/kubernetes-id: ${{ values.appName }}
+    backstage.io/kubernetes-id: sample-spring-boot-app-openshift2
 spec:
   selector:
     matchLabels:
