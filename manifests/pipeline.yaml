@@ -86,7 +86,7 @@ spec:
       taskRef:
         kind: ClusterTask
         name: s2i-java
-        workspaces:
+      workspaces:
         - name: source
           workspace: source-dir
   workspaces:
