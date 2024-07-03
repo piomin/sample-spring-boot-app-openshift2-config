@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: sample-spring-boot-app-openshift2
-          image: piomin/sample-spring-boot-app-openshift2:latest
+          image: image-registry.openshift-image-registry.svc:5000/demo/sample-spring-boot-app-openshift2:1.0-SNAPSHOT
           ports:
             - containerPort: 8080
               name: http
